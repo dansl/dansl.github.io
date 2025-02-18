@@ -1,0 +1,18 @@
+body {
+    background-color: #181a1b;
+    color: #fff;
+}
+.text-body-secondary {
+    color: #fff !important;
+}
+.dansl-header {
+    background-color: #181a1b;
+    border-color: rgb(30, 41, 59) !important;
+}
+.breadcrumb,
+.breadcrumb-item,
+.breadcrumb-item a {
+    color: #fff !important;
+    text-decoration: none !important;
+    --bs-breadcrumb-divider-color: grey;
+}

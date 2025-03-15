@@ -137,6 +137,8 @@
             </div>
         </header>
         <main class="container">
+            <div id="MarkDownDiv" style="display: none"></div>
+            <div id="bsky-embed"></div>
             <bsky-embed
                 username="dansnull.bsky.social"
                 search=""
@@ -149,8 +151,7 @@
                 disable-styles="false"
                 custom-styles=""
                 date-format='{"type":"relative"}'
-            >
-            </bsky-embed>
+            ></bsky-embed>
         </main>
         <footer
             class="text-center text-lg-start text-white"
@@ -239,9 +240,10 @@
             </div>
         </footer>
 
-        <script src="js/main.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
-        <script type="module" src="js/bsky-embed.umd.js"></script>
+        <script src="js/showdown.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/bsky-embed.umd.js"></script>
         <!-- 100% privacy-first analytics -->
         <script
             async

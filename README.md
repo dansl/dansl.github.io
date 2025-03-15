@@ -1,0 +1,3 @@
+# Dan's Website
+
+My personal site for various stuff and projects...

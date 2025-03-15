@@ -11,19 +11,19 @@ function setBSKYEmbedSearch() {
   var showMarkdownPage = false;
 
   if (params != "") {
-    if (params == "#MacOS-Page") {
+    if (params == "#MacOS-Stuff") {
       showMarkdownPage = fetchMarkdownAndConvert(
-        "https://github.com/dansl/MacOS-Stuff/blob/cae7fde37b4a030f045143015062912d28e80884/README.md",
+        "./pages/macos.md",
         "MarkDownDiv",
       );
-    } else if (params == "#LinuxOS-Page") {
+    } else if (params == "#Linux-Stuff") {
       showMarkdownPage = fetchMarkdownAndConvert(
-        "https://github.com/dansl/LinuxOS-Stuff/blob/e92a2436a45e5053c8a49cafa93bac032bf5ebd1/README.md",
+        "./pages/linux.md",
         "MarkDownDiv",
       );
-    } else if (params == "#iOS-Page") {
+    } else if (params == "#iOS-Stuff") {
       showMarkdownPage = fetchMarkdownAndConvert(
-        "https://github.com/dansl/iOS-Stuff/blob/99631a30622396a3be673ac49b6a6662f3e28b41/README.md",
+        "./pages/ios.md",
         "MarkDownDiv",
       );
     } else {
@@ -70,8 +70,7 @@ async function fetchMarkdownAndConvert(githubUrl, targetElementId) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
     const markdownText = await response.text();
-    const converter = new showdown.Converter();
-    const html = converter.makeHtml(markdownText);
+    const html = marked.parse(markdownText);
     const targetElement = document.getElementById(targetElementId);
     if (targetElement) {
       targetElement.innerHTML = html;

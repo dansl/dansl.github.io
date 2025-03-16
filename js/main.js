@@ -57,9 +57,9 @@ function setBreadcrumbPage(params) {
   const breadcrumb = document.getElementsByClassName("breadcrumb")[0];
   breadcrumb.innerHTML =
     '<li class="breadcrumb-item"><a href="#">Home</a></li><li class="breadcrumb-item active" aria-current="page"><a href="' +
-    params +
+    DOMPurify.sanitize(params) +
     '">' +
-    params +
+    DOMPurify.sanitize(params) +
     "</a></li>";
 }
 

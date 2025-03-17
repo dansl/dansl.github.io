@@ -29,7 +29,8 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 | [balenaEtcher](https://etcher.balena.io) | FREE | Flash images to external storage devices. Great for flashing SDcards. |
 | [Berty](https://berty.tech) | FREE | Open-source decentralized messaging app with end-to-end encryption. |
 | [BetterDisplay](https://github.com/waydabber/BetterDisplay) | $ | Support and control non-Apple displays. |
-| [Blender](https://www.blender.org) | FREE | 3D modeling applicaiton. |
+| [Bitdefender](https://apps.apple.com/us/app/bitdefender-virus-scanner/id500154009?mt=12) | FREE | Anti-virus scanner to protect your Mac from viruses and malware. |
+| [Blender](https://www.blender.org) | FREE | 3D modeling application. |
 | [CleanMyMac](https://cleanmymac.com) | $ | Storage cleaner and Virus Scanner. Can free up lots of space and keep you safe. |
 | [CyberDuck](https://cyberduck.io) | FREE | FTP and remote file management application. |
 | [DaisyDisk](https://daisydiskapp.com) | $ | Visualizes all your storage space for easier cleanup. |
@@ -68,6 +69,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 | [OpenEmu](https://github.com/Azyzraissi/OpenEmu) | FREE | Multi-platform retro gaming emulator, play almost any retro game on your Mac. |
 | [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer) | FREE | 3D model slicer for prepping your models to 3D Print. |
 | [Parallels](https://www.parallels.com) | $ | Virtual Machine app for running Windows or Linux inside MacOS. |
+| [Photomator](https://www.pixelmator.com/photomator/) | $ | Photo editing software. |
 | [Pixelmator](https://www.pixelmator.com/pro/) | $ | Image creation and photo editing software. A great alternative to Photoshop, and much cheaper comparatively. |
 | [Plex](https://www.plex.tv) | FREE | Media server that will stream your music, movies and TV shows to any device. |
 | [Plexamp](https://www.plex.tv/plexamp/) | FREE | Music streaming app that will stream music from your Plex server. Also has AI playlist generation. |
@@ -412,3 +414,10 @@ These are ways to make your terminal more efficient and more enjoyable! Highly r
 - [navi](https://github.com/denisidoro/navi) - navi is a cheatsheet for your terminal. Download community made cheatsheets with various commonly used command snippets and examples, and easily search for them to use.
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - zsh-autosuggestions is a plugin for zsh that provides auto-suggestions based on your command history.
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - zsh-syntax-highlighting is a plugin for zsh that provides syntax highlighting for commands.
+
+Thanks for reading. Follow me for more!
+- [Website](https://dansl.net)
+
+- [Bluesky](https://bsky.app/profile/dansnull.bsky.social)
+
+- [Mastodon](https://mastodon.social/@DansNull)

@@ -199,6 +199,13 @@ These are ways to make your terminal more efficient and more enjoyable!
 - [eza](https://github.com/eza-community/eza) - eza is a replacement for ls command that displays files and folders with syntax highlighting.
 - [fd](https://github.com/sharkdp/fd) - fd is a simple, fast and user-friendly alternative to the find command.
 - [navi](https://github.com/denisidoro/navi) - navi is a cheatsheet for your terminal. Download community made cheatsheets with various commonly used command snippets and examples, and easily search for them to use.
+
+With terminal shell, I prefer ZSH, some linux ditros might have ZSH preinstalled while others might not.
+- In Manjaro Linux, you can switch to ZSH by entering this command. After entering it, logout or restart to take affect.
+  ```
+  sudo chsh -s /bin/zsh
+  ```
+Manjaro Linux already comes preloaded with the following plugins for ZSH, plus many more.
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - zsh-autosuggestions is a plugin for zsh that provides auto-suggestions based on your command history.
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - zsh-syntax-highlighting is a plugin for zsh that provides syntax highlighting for commands.
 

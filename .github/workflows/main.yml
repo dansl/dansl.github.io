@@ -14,7 +14,7 @@ jobs:
 
       - name: Write Page Files
         run: |
-          cd pages
+          cd dansl.github.io/pages
           wget -O macos.md https://raw.githubusercontent.com/dansl/MacOS-Stuff/refs/heads/main/README.md
           wget -O linux.md https://raw.githubusercontent.com/dansl/LinuxOS-Stuff/refs/heads/main/README.md
           wget -O ios.md https://raw.githubusercontent.com/dansl/iOS-Stuff/refs/heads/main/README.md

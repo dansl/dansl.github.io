@@ -1,4 +1,4 @@
-name: Download pages and deploy
+name: Download Pages
 on:
   push:
     branches:
@@ -35,4 +35,3 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
-          #force: true # Use with caution!  Can overwrite history.

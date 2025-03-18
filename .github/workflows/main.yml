@@ -24,7 +24,10 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git commit -a -m "Update pages via GitHub Action"
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -a -m "Update pages via GitHub Action"
+          else
+            echo "No changes to commit"
 
       - name: Push Changes
         uses: ad-m/github-push-action@master

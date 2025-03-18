@@ -11,10 +11,11 @@ jobs:
         uses: actions/checkout@v4
         with:
             ref: main
-
+            fetch-depth: 0
+            persist-credentials: false
       - name: Write Page Files
         run: |
-          cd dansl.github.io/pages
+          cd pages
           wget -O macos.md https://raw.githubusercontent.com/dansl/MacOS-Stuff/refs/heads/main/README.md
           wget -O linux.md https://raw.githubusercontent.com/dansl/LinuxOS-Stuff/refs/heads/main/README.md
           wget -O ios.md https://raw.githubusercontent.com/dansl/iOS-Stuff/refs/heads/main/README.md
@@ -23,7 +24,7 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git commit -m "Update pages via GitHub Action"
+          git commit -a -m "Update pages via GitHub Action"
 
       - name: Push Changes
         uses: ad-m/github-push-action@master

@@ -192,7 +192,7 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
 
 ### Terminal Apps and Plugins
 
-These are ways to make your terminal more efficient and more enjoyable!
+These are CLI based apps that make your termainal more efficient and more enjoyable!
 
 - [bat](https://github.com/sharkdp/bat) - bat is a replacement for cat command so you can view files in command line with syntax highlighting.
 - [btop](https://github.com/aristocratos/btop) - btop is a replacement for top command that displays system resources and running tasks information with syntax highlighting.
@@ -205,8 +205,9 @@ With terminal shell, I prefer ZSH, some linux ditros might have ZSH preinstalled
   ```
   sudo chsh -s /bin/zsh
   ```
-Manjaro Linux already comes preloaded with the following plugins for ZSH, plus many more.
+Manjaro Linux already comes preloaded with the following plugins for ZSH, plus many more, but I highly recommend them!
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - zsh-autosuggestions is a plugin for zsh that provides auto-suggestions based on your command history.
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - zsh-syntax-highlighting is a plugin for zsh that provides syntax highlighting for commands.
+- [PowerLevel10K](https://github.com/romkatv/powerlevel10k) - An awesome theme for ZSH.
 
 Thanks for reading. [Follow me](https://bsky.app/profile/dansnull.bsky.social) for more!

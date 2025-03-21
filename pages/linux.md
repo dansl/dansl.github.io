@@ -216,10 +216,12 @@ These are CLI based apps that make your termainal more efficient and more enjoya
 - [navi](https://github.com/denisidoro/navi) - navi is a cheatsheet for your terminal. Download community made cheatsheets with various commonly used command snippets and examples, and easily search for them to use.
 
 With terminal shell, I prefer ZSH, some linux ditros might have ZSH preinstalled while others might not.
+
 - In Manjaro Linux, you can switch to ZSH by entering this command. After entering it, logout or restart to take affect.
   ```
   sudo chsh -s /bin/zsh
   ```
+
 Manjaro Linux already comes preloaded with the following plugins for ZSH, plus many more, but I highly recommend them!
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - zsh-autosuggestions is a plugin for zsh that provides auto-suggestions based on your command history.
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - zsh-syntax-highlighting is a plugin for zsh that provides syntax highlighting for commands.

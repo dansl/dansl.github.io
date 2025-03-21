@@ -43,6 +43,11 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
 
 ## Linux Tips and Tricks
 
+- Steam Game Tip - If a game in Steam is not loading properly. Try adding this to the games "Launch Options".
+  ```
+  SteamDeck=1 %command%
+  ```
+
 ### Terminal Tips
 
 - Drag any file into a Terminal window to input its path.

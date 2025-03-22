@@ -50,7 +50,7 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
   ```
 
   ### DualSense Controller Fix
-  If you use the Sony DualSense controller on Linux, the touchpad is seen as a mouse trackpad, which can cause games to break. To fix this, add one of the files below depending on what display server you run. To find out what you're running use this command.
+  If you use the Sony DualSense controller on Linux, the touchpad is seen as a mouse trackpad, which can cause games to break. To fix this, add one of the files below depending on what display server you run, then **reboot** for changes to take effect. To find out what display server you're running, use this command.
 
   ```
   echo $XDG_SESSION_TYPE

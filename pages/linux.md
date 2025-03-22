@@ -56,7 +56,7 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
   echo $XDG_SESSION_TYPE
   ```
 
-  If your Linux disrto uses **X11**, create this file and path with the text below inside "/etc/X11/xorg.conf.d/30--dualsense.conf":
+  If your Linux distro uses **X11**, create this file and path with the text below inside "/etc/X11/xorg.conf.d/30--dualsense.conf":
   ```
   Section "InputClass"
       Identifier "Sony Interactive Entertainment Wireless Controller Touchpad"
@@ -66,7 +66,7 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
   EndSection
   ```
 
-  If your Linux disrto uses **Wayland**, create this file and path with the text below inside "/etc/libinput/local-overrides.d/dualsense.conf":
+  If your Linux distro uses **Wayland**, create this file and path with the text below inside "/etc/libinput/local-overrides.d/dualsense.conf":
   ```
   [Device]
   Name=Sony Interactive Entertainment Wireless Controller Touchpad

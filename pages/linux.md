@@ -48,7 +48,13 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
   SteamDeck=1 %command%
   ```
 
-- DualSense Controller Fix - If you use the Sony DualSense controller on Linux, the touchpad is overridden as a mouse trackpad. To fix this, add this file "/etc/X11/xorg.conf.d/30--dualsense.conf" with below text inside.
+- DualSense Controller Fix - If you use the Sony DualSense controller on Linux, the touchpad is seen as a mouse trackpad, which can cause games to break. To fix this, add one of the files below depending on what display server you run. To find out what you're running use this command.
+
+  ```
+  echo $XDG_SESSION_TYPE
+  ```
+
+  If your Linux disrto uses **X11**, create this file and path with the text below inside "/etc/X11/xorg.conf.d/30--dualsense.conf":
   ```
   Section "InputClass"
       Identifier "Sony Interactive Entertainment Wireless Controller Touchpad"
@@ -56,6 +62,19 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
       MatchIsTouchpad "on"
       Option "Ignore" "true"
   EndSection
+  ```
+
+  If your Linux disrto uses **Wayland**, create this file and path with the text below inside "/etc/libinput/local-overrides.d/dualsense.conf":
+  ```
+  [Device]
+  Name=Sony Interactive Entertainment Wireless Controller Touchpad
+  MatchIsTouchpad=yes
+  Ignore=yes
+  ```
+
+  If it's not working, look up the name of your device by entering the below command and looking for your device in the list. Then update the name in the file you created above.
+  ```
+  libinput list-devices
   ```
 
 ### Terminal Tips

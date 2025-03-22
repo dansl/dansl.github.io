@@ -43,12 +43,14 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
 
 ## Linux Tips and Tricks
 
-- Steam Game Compatibility - If a game in Steam is not loading properly. Try adding this line to the games "Launch Options".
+  ### Steam Game Compatibility
+  If a game in Steam is not loading properly. Try adding this line to the games "Launch Options".
   ```
   SteamDeck=1 %command%
   ```
 
-- DualSense Controller Fix - If you use the Sony DualSense controller on Linux, the touchpad is seen as a mouse trackpad, which can cause games to break. To fix this, add one of the files below depending on what display server you run. To find out what you're running use this command.
+  ### DualSense Controller Fix
+  If you use the Sony DualSense controller on Linux, the touchpad is seen as a mouse trackpad, which can cause games to break. To fix this, add one of the files below depending on what display server you run. To find out what you're running use this command.
 
   ```
   echo $XDG_SESSION_TYPE

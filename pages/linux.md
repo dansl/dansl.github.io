@@ -50,35 +50,35 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
   SteamDeck=1 %command%
   ```
 
-  ### DualSense Controller Fix
-  If you use the Sony DualSense controller on Linux, the touchpad is seen as a mouse trackpad, which can cause games to break. To fix this, add one of the files below depending on what display server you run, then **reboot** for changes to take effect. To find out what display server you're running, use this command.
+  ### Sony DualSense Controller Fix
+  If you use the Sony DualSense controller on Linux, the touchpad is seen as a mouse trackpad, which can cause games to break. To fix this, follow these steps.
 
+  - Using Terminal. Create and open a file with this command.
   ```
-  echo $XDG_SESSION_TYPE
+  sudo nano /etc/udev/rules.d/72-dualsense-fix.rules
   ```
-
-  If your Linux distro uses **X11**, create this file and path with the text below inside "/etc/X11/xorg.conf.d/30--dualsense.conf":
+  - Paste this text into the file
   ```
-  Section "InputClass"
-      Identifier "Sony Interactive Entertainment Wireless Controller Touchpad"
-      Driver "libinput"
-      MatchIsTouchpad "on"
-      Option "Ignore" "true"
-  EndSection
+  # Disable PlayStation Controller Touchpad
+  # USB
+  ATTRS{name}=="Sony Interactive Entertainment Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+  # Bluetooth
+  ATTRS{name}=="Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+  # DualSense USB
+  ATTRS{name}=="Sony Interactive Entertainment DualSense Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+  # DualSense Bluetooth
+  ATTRS{name}=="DualSense Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+  # Edge USB
+  ATTRS{name}=="Sony Interactive Entertainment DualSense Edge Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+  # Edge Bluetooth
+  ATTRS{name}=="DualSense Edge Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
   ```
-
-  If your Linux distro uses **Wayland**, create this file and path with the text below inside "/etc/libinput/local-overrides.quirks":
+  - Once pasted, push the key combo "Ctrl+X", then press "Y" key, and then press "ENTER" key.
+  - Now run the following command or just reboot your pc.
   ```
-  [DualSense Disable Touchpad]
-  Name=Sony Interactive Entertainment Wireless Controller Touchpad
-  MatchIsTouchpad=yes
-  Ignore=yes
+  udevadm control --reload && udevadm trigger
   ```
-
-  If it's not working, look up the name of your device by entering the below command and looking for your device in the list. Then update the name in the file you created above.
-  ```
-  libinput list-devices
-  ```
+  If it worked, you shouldn't be able to move the mouse with the DualSense trackpad.
 
 ### Terminal Tips
 

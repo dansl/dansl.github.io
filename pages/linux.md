@@ -67,9 +67,9 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
   EndSection
   ```
 
-  If your Linux distro uses **Wayland**, create this file and path with the text below inside "/etc/libinput/local-overrides.d/dualsense.conf":
+  If your Linux distro uses **Wayland**, create this file and path with the text below inside "/etc/libinput/local-overrides.quirks":
   ```
-  [Device]
+  [DualSense Disable Touchpad]
   Name=Sony Interactive Entertainment Wireless Controller Touchpad
   MatchIsTouchpad=yes
   Ignore=yes

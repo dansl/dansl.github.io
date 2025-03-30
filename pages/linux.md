@@ -40,6 +40,7 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
 | [Transmission](https://transmissionbt.com) | FREE | BitTorrent client. |
 | [VLC](https://www.videolan.org/vlc/) | FREE | Media player. |
 | [WireShark](https://www.wireshark.org) | FREE | Network protocol analyzer. |
+| [YACReader](https://www.yacreader.com) | FREE | A comic and graphic novel reader app. |
 | [Zed](https://zed.dev) | FREE | Amazing text editor and development IDE with local AI support and much much more. |
 
 ## Linux Tips and Tricks

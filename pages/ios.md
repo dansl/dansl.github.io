@@ -89,6 +89,7 @@ A page dedicated to all my favorite apps, tips, and tricks for iOS. Many of thes
 | [Wifi Man](https://apps.apple.com/us/app/ubiquiti-wifiman/id1385561119) | FREE | WiFi management and network scanning app. |
 | [Windows App Mobile](https://apps.apple.com/us/app/windows-app-mobile/id714464092) | FREE | Remote desktop viewing app. |
 | [xScope](https://xscopeapp.com) | $ | A powerful set of tools that are ideal for measuring, inspecting & testing on-screen graphics and layouts. |
+| [YACReader](https://www.yacreader.com) | FREE | A comic and graphic novel reader app. |
 | [ZBrush](https://apps.apple.com/us/app/zbrush/id6612028716) | FREE | Digital sculpting and painting app. |
 | [3D Go](https://apps.apple.com/us/app/thingiverse-printables-3d-go/id6462052942) | FREE | 3D Print finder and aggregator for various services such as Thingiverse, Printables, and more. |
 
@@ -164,6 +165,6 @@ A page dedicated to all my favorite apps, tips, and tricks for iOS. Many of thes
 - **Take People and Things Out of Images** - In Photos app, tap the part you want to save, and it will pop off the screen a bit, then ask you to Copy or Share it; but you can also drag it around to place it somewhere else (into Messages or an email, for example). The background becomes transparent.
 - **Strip Data From Photos Before You Share** - View a photo and click the Share Button, but before you share it, click Options at the top. Turn off All Photos Data.
 - **Crop It Quick** - Just open an image and do the two-finger zoom-in, either in portrait or landscape mode. A Crop button appears at the upper right. Tap it and the image is instantly whittled down to what you see on the screen.
-- **Input text into a text field using your camera** - This is especially helpful for inputing a download code from a flyer. When on a website that requires text input, tap on a field like you are going to paste some text. Instead of pasting, find or slide left on the popup menu and tap "Autofill". Then tap "Scan Text". Now you can use your camera to scan text and input it into the text field. 
+- **Input text into a text field using your camera** - This is especially helpful for inputing a download code from a flyer. When on a website that requires text input, tap on a field like you are going to paste some text. Instead of pasting, find or slide left on the popup menu and tap "Autofill". Then tap "Scan Text". Now you can use your camera to scan text and input it into the text field.
 
 Thanks for reading. [Follow me](https://bsky.app/profile/dansnull.bsky.social) for more!

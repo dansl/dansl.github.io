@@ -8,6 +8,7 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
 | [Blender](https://www.blender.org) | FREE | 3D modeling applicaiton. |
 | [Berty](https://berty.tech) | FREE | Open-source decentralized messaging app with end-to-end encryption. |
 | [Bottles](https://usebottles.com) | FREE | Run Windows applications on Linux with WINE. |
+| [Calibre](https://github.com/kovidgoyal/calibre) | FREE | Calibre is an e-book manager. It can view, convert, edit and catalog e-books in all of the major e-book formats. |
 | [DarkReader](https://darkreader.org) | FREE | Makes all websites have a dark theme. |
 | [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) | FREE | Very advanced and well made video editor. |
 | [Discord](https://discord.com) | FREE | Chat app that supports audio/video/text for large groups, tailored to Gaming. |
@@ -39,24 +40,46 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
 | [Transmission](https://transmissionbt.com) | FREE | BitTorrent client. |
 | [VLC](https://www.videolan.org/vlc/) | FREE | Media player. |
 | [WireShark](https://www.wireshark.org) | FREE | Network protocol analyzer. |
+| [YACReader](https://www.yacreader.com) | FREE | A comic and graphic novel reader app. |
 | [Zed](https://zed.dev) | FREE | Amazing text editor and development IDE with local AI support and much much more. |
 
 ## Linux Tips and Tricks
 
-- Steam Game Compatibility - If a game in Steam is not loading properly. Try adding this line to the games "Launch Options".
+  ### Steam Game Compatibility
+  If a game in Steam is not loading properly. Try adding this line to the games "Launch Options".
   ```
   SteamDeck=1 %command%
   ```
 
-- DualSense Controller Fix - If you use the Sony DualSense controller on Linux, the touchpad is overridden as a mouse trackpad. To fix this, add this file "/etc/X11/xorg.conf.d/30--dualsense.conf" with below text inside.
+  ### Sony DualSense Controller Fix
+  If you use the Sony DualSense controller on Linux, the touchpad is seen as a mouse trackpad, which can cause games to break. To fix this, follow these steps.
+
+  - Using Terminal. Create and open a file with this command.
   ```
-  Section "InputClass"
-      Identifier "Sony Interactive Entertainment Wireless Controller Touchpad"
-      Driver "libinput"
-      MatchIsTouchpad "on"
-      Option "Ignore" "true"
-  EndSection
+  sudo nano /etc/udev/rules.d/72-dualsense-fix.rules
   ```
+  - Paste this text into the file
+  ```
+  # Disable PlayStation Controller Touchpad
+  # USB
+  ATTRS{name}=="Sony Interactive Entertainment Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+  # Bluetooth
+  ATTRS{name}=="Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+  # DualSense USB
+  ATTRS{name}=="Sony Interactive Entertainment DualSense Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+  # DualSense Bluetooth
+  ATTRS{name}=="DualSense Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+  # Edge USB
+  ATTRS{name}=="Sony Interactive Entertainment DualSense Edge Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+  # Edge Bluetooth
+  ATTRS{name}=="DualSense Edge Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+  ```
+  - Once pasted, push the key combo "Ctrl+X", then press "Y" key, and then press "ENTER" key.
+  - Now run the following command or just reboot your pc.
+  ```
+  udevadm control --reload && udevadm trigger
+  ```
+  If it worked, you shouldn't be able to move the mouse with the DualSense trackpad.
 
 ### Terminal Tips
 

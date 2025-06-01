@@ -1,6 +1,8 @@
 # Linux OS Stuff
 Here's a list of all my favorite Linux apps, tips, and tricks. My current distro I prefer is [Manjaro](https://manjaro.org). Manjaro is a community-driven Linux distribution based on Arch Linux.
 
+I also have a page that goes over how to setup Arch Linux on a handheld PC for gaming called [Steamy Handheld PC](https://github.com/dansl/Steamy-Handheld-PC)
+
 ## Linux Apps
 | Name | Price | Note |
 | --- | --- | --- |

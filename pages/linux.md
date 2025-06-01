@@ -8,6 +8,7 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
 | [Blender](https://www.blender.org) | FREE | 3D modeling applicaiton. |
 | [Berty](https://berty.tech) | FREE | Open-source decentralized messaging app with end-to-end encryption. |
 | [Bottles](https://usebottles.com) | FREE | Run Windows applications on Linux with WINE. |
+| [Caffeine Gnome Extension](https://github.com/eonpatapon/gnome-shell-extension-caffeine) | FREE | For Gnome Desktop Enviroment only, quickly and easily keep your computer awake without changing power settings. |
 | [Calibre](https://github.com/kovidgoyal/calibre) | FREE | Calibre is an e-book manager. It can view, convert, edit and catalog e-books in all of the major e-book formats. |
 | [DarkReader](https://darkreader.org) | FREE | Makes all websites have a dark theme. |
 | [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) | FREE | Very advanced and well made video editor. |

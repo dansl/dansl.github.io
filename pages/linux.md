@@ -10,7 +10,7 @@ I also have a page that goes over how to setup Arch Linux on a handheld PC for g
 | [Blender](https://www.blender.org) | FREE | 3D modeling applicaiton. |
 | [Berty](https://berty.tech) | FREE | Open-source decentralized messaging app with end-to-end encryption. |
 | [Bottles](https://usebottles.com) | FREE | Run Windows applications on Linux with WINE. |
-| [Caffeine Gnome Extension](https://github.com/eonpatapon/gnome-shell-extension-caffeine) | FREE | For Gnome Desktop Enviroment only, quickly and easily keep your computer awake without changing power settings. |
+| [Caffeine Gnome Extension](https://github.com/eonpatapon/gnome-shell-extension-caffeine) | FREE | For GNOME only, quickly and easily keep your computer awake without changing power settings. |
 | [Calibre](https://github.com/kovidgoyal/calibre) | FREE | Calibre is an e-book manager. It can view, convert, edit and catalog e-books in all of the major e-book formats. |
 | [DarkReader](https://darkreader.org) | FREE | Makes all websites have a dark theme. |
 | [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) | FREE | Very advanced and well made video editor. |
@@ -23,6 +23,7 @@ I also have a page that goes over how to setup Arch Linux on a handheld PC for g
 | [Github Desktop](https://desktop.github.com/download/) | FREE | Manage your Github Repos easily. |
 | [Handbrake](https://handbrake.fr) | FREE | Simple video converter and compressor app. |
 | [Heroic](https://heroicgameslauncher.com) | FREE | Open Source Epic, GOG and Amazon Prime Games launcher. |
+| [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/) | FREE | For GNOME only, tweak your UI to perfection! |
 | [Kiwix](https://kiwix.org/en/) | FREE | Store local copies of Wikipedia on your PC. |
 | [Lutris](https://lutris.net) | FREE | Open-Source Game Launcher for Linux. |
 | [Motrix](https://motrix.app) | FREE | Download manager that will pull downloads off servers faster by using multiple streams. |
@@ -41,6 +42,7 @@ I also have a page that goes over how to setup Arch Linux on a handheld PC for g
 | [SyncThing](https://syncthing.net) | FREE | Sync files between devices without a Cloud. |
 | [Tailscale](https://tailscale.com) | FREE | Simple to use local VPN for secure remote access to your home network. |
 | [Transmission](https://transmissionbt.com) | FREE | BitTorrent client. |
+| [Vitals](https://github.com/corecoding/Vitals) | FREE | For GNOME only, view your PC's resource usage on your top bar. |
 | [VLC](https://www.videolan.org/vlc/) | FREE | Media player. |
 | [WireShark](https://www.wireshark.org) | FREE | Network protocol analyzer. |
 | [YACReader](https://www.yacreader.com) | FREE | A comic and graphic novel reader app. |

@@ -12,6 +12,7 @@ I also have a page that goes over how to setup Arch Linux on a handheld PC for g
 | [Bottles](https://usebottles.com) | FREE | Run Windows applications on Linux with WINE. |
 | [Caffeine Gnome Extension](https://github.com/eonpatapon/gnome-shell-extension-caffeine) | FREE | For GNOME only, quickly and easily keep your computer awake without changing power settings. |
 | [Calibre](https://github.com/kovidgoyal/calibre) | FREE | Calibre is an e-book manager. It can view, convert, edit and catalog e-books in all of the major e-book formats. |
+| [Conky](https://github.com/brndnmtthws/conky) | FREE | Conky is a free, light-weight system monitor. |
 | [DarkReader](https://darkreader.org) | FREE | Makes all websites have a dark theme. |
 | [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) | FREE | Very advanced and well made video editor. |
 | [Discord](https://discord.com) | FREE | Chat app that supports audio/video/text for large groups, tailored to Gaming. |

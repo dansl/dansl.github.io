@@ -22,6 +22,7 @@ I also have a page that goes over how to setup Arch Linux on a handheld PC for g
 | [Game Devices Udev](https://codeberg.org/fabiscafe/game-devices-udev) | FREE | Hardware profiles for uncommon game controllers. |
 | [GBStudio](https://www.gbstudio.dev) | FREE | Open-Source Game Development Studio for Game Boy and Game Boy Color. |
 | [Github Desktop](https://desktop.github.com/download/) | FREE | Manage your Github Repos easily. |
+| [GJS OSK](https://github.com/Vishram1123/gjs-osk) | FREE | Better On Screen Keyboard for GNOME. |
 | [Handbrake](https://handbrake.fr) | FREE | Simple video converter and compressor app. |
 | [Heroic](https://heroicgameslauncher.com) | FREE | Open Source Epic, GOG and Amazon Prime Games launcher. |
 | [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/) | FREE | For GNOME only, tweak your UI to perfection! |

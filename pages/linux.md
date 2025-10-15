@@ -26,6 +26,7 @@ Note: if you are using the app Pamac and are not seeing an app listed, go into P
 | [GJS OSK](https://github.com/Vishram1123/gjs-osk) | FREE | Better On Screen Keyboard for GNOME. |
 | [Handbrake](https://handbrake.fr) | FREE | Simple video converter and compressor app. |
 | [Heroic](https://heroicgameslauncher.com) | FREE | Open Source Epic, GOG and Amazon Prime Games launcher. |
+| [JellyFin](https://jellyfin.org/) | FREE | Open Source Media server that will stream your music, movies and TV shows to any device. |
 | [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/) | FREE | For GNOME only, tweak your UI to perfection! |
 | [Kiwix](https://kiwix.org/en/) | FREE | Store local copies of Wikipedia on your PC. |
 | [Lutris](https://lutris.net) | FREE | Open-Source Game Launcher for Linux. |

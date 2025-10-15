@@ -4,6 +4,7 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
 I also have a page that goes over how to setup Arch Linux on a handheld PC for gaming called [Steamy Handheld PC](https://github.com/dansl/Steamy-Handheld-PC)
 
 ## Linux Apps
+Note: if you are using the app Pamac and are not seeing an app listed, go into Pamac settings and enable Flatpak and AUR support.
 | Name | Price | Note |
 | --- | --- | --- |
 | [Alpaca](https://github.com/Jeffser/Alpaca) | FREE | A simple chat style app for communicating with a local or remote AI model. |
